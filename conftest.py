@@ -4,9 +4,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-base_url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
-username = "Admin"
-password = "admin123"
 
 @pytest.fixture(scope="class", autouse=True)
 def browser_setup(request):

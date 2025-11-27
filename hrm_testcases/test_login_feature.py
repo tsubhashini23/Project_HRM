@@ -2,8 +2,7 @@
 import pytest
 from conftest import *
 from hrm_pages.login_page import LoginPage
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from config import *
 
 
 @pytest.mark.usefixtures("browser_setup")
